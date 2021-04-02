@@ -1,2 +1,2 @@
 # archinstaller 
-# Bu shell dosyası ile yorulmadan Arch Linux kurabilirsiniz!
+# With this shell files, you can install Arch Linux without getting tired! 
