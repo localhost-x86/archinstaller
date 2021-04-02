@@ -14,9 +14,6 @@ echo root:password | chpasswd
 
 pacman -S --noconfirm grub networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools reflector base-devel linux-headers alsa-utils pulseaudio rsync
 
-# pacman -S --noconfirm xf86-video-amdgpu
-# pacman -S --noconfirm nvidia nvidia-utils nvidia-settings
-
 grub-install --target=i386-pc /dev/sdX # replace sdx with your disk name
 grub-mkconfig -o /boot/grub/grub.cfg
 
