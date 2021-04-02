@@ -21,15 +21,6 @@ grub-install --target=i386-pc /dev/sdX # replace sdx with your disk name
 grub-mkconfig -o /boot/grub/grub.cfg
 
 systemctl enable NetworkManager
-systemctl enable bluetooth
-systemctl enable cups.service
-systemctl enable sshd
-systemctl enable avahi-daemon
-systemctl enable reflector.timer
-systemctl enable fstrim.timer
-systemctl enable libvirtd
-systemctl enable firewalld
-systemctl enable acpid
 
 useradd -m user
 echo user:password | chpasswd
