@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime
+ln -sf /usr/share/zoneinfo/Europe/Istanbul /etc/localtime
 hwclock --systohc
 sed -i '177s/.//' /etc/locale.gen
 locale-gen
